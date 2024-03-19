@@ -27,7 +27,7 @@ export const Ofertas = () => {
         return (
           <div key={item.id}>
               <Button variant="outlined" onClick={() => {
-                return handleClickOpen(), setSelectedValue(item)}} >
+                return handleClickOpen(), setSelectedValue(item), item.visualizacoes++}} >
               <SingleCard {...item} />
               </Button>
               <ModalCard
