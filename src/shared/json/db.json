@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "foto": ["public/images/foto1_1.jpg", "public/images/foto1_2.jpg", "public/images/foto1_3.jpg"],
+        "preco": 50000,
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "ano": 2019,
+        "visualizacoes": 100,
+        "cor": "Prata",
+        "quilometragem": 30000,
+        "placa": "ABC1234",
+        "cidade": "São Paulo",
+        "data_cadastro": "2024-03-18"
+    },
+    {
+        "id": 2,
+        "foto": ["public/images/foto2_1.jpg", "public/images/foto2_2.jpg", "public/images/foto2_3.jpg", "public/images/foto2_4.jpg"],
+        "preco": 40000,
+        "marca": "Honda",
+        "modelo": "Civic",
+        "ano": 2018,
+        "visualizacoes": 150,
+        "cor": "Preto",
+        "quilometragem": 25000,
+        "placa": "DEF5678",
+        "cidade": "Rio de Janeiro",
+        "data_cadastro": "2024-03-17"
+    },
+    {
+        "id": 3,
+        "foto": ["public/images/foto3_1.jpg", "public/images/foto3_2.jpg"],
+        "preco": 60000,
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2020,
+        "visualizacoes": 80,
+        "cor": "Branco",
+        "quilometragem": 20000,
+        "placa": "GHI91011",
+        "cidade": "Belo Horizonte",
+        "data_cadastro": "2024-03-16"
+    }
+]
