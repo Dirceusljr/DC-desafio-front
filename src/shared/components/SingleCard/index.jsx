@@ -15,15 +15,15 @@ export default function SingleCard({...props}) {
 
   return (
     <div >
-      <Box padding={2} >
-        <Card sx={{ maxWidth: 345, cursor: 'pointer'}} onClick={handleOpen}>
+      <Box padding={1} justifyContent='center' >
+        <Card sx={{ maxWidth: '100vw', cursor: 'pointer'}} onClick={handleOpen}>
           <CardHeader
             title={props.modelo}
             subheader={props.marca}
           />
           <CardMedia
             component="img"
-            height="194"
+            Maxheight="194"
             image={props.foto[0] }
             alt={props.modelo}
           />
